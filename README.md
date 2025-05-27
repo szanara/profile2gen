@@ -74,7 +74,50 @@ Each main script has a corresponding .sh file that executes it.
 
 
 ----> **Execution Order**
+
+
 --> **To Generate Synthetic Data**
+
+
+```
+# 1. Find best parameters for all generative models
+bash /root/find_best_param_generative_models/find_param.sh
+
+# 2. Select the best framework to initiate preprocessing based on flipping rate
+bash /root/choosing_framework/choosing_framework_2realdatasets.sh
+
+# 3. Generate synthetic data in the traditional way
+bash /root/generating_synth_data/traditional/generating.sh
+
+# 4. Generate synthetic data using profiles (Profile2Gen sculpted)
+bash /root/generating_synth_data/profiled/generating_Sculped.sh
+
+# 5. Select the best profiling framework for the synthetic data
+bash /root/choosing_framework/choosing_framework_p2syntheticdata.sh
+
+# 6. Profile synthetic data using the selected framework
+bash /root/profiling_synth_data/post_sculpting.sh
+
+# 7. Remove hard samples to produce the final synthetic dataset
+bash /root/profiling_synth_data/final_data.sh
+```
+
+
+-->** For evaluation process**
+
+
+```# Evaluate the real dataset
+bash /root/evaluation/evaluate_originals.sh
+
+# Evaluate traditionally generated synthetic data
+bash /root/evaluation/evaluate_synthetic.sh
+
+# Evaluate preprocessed synthetic data (after first profiling step)
+bash /root/evaluation/evaluate_step1_synthetic.sh
+
+# Evaluate final Profile2Gen data (after full processing)
+bash /root/evaluation/evaluate_final_synthetic.sh
+```
 
 
 
