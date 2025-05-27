@@ -89,7 +89,7 @@ bash /root/choosing_framework/choosing_framework_2realdatasets.sh
 # 3. Generate synthetic data in the traditional way
 bash /root/generating_synth_data/traditional/generating.sh
 
-# 4. Generate synthetic data using profiles (Profile2Gen sculpted)
+# 4. Generate synthetic data using best profiler
 bash /root/generating_synth_data/profiled/generating_Sculped.sh
 
 # 5. Select the best profiling framework for the synthetic data
