@@ -41,3 +41,35 @@
 └── README.md
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+**Project Structure and Execution Guide** 
+The folder names in this project are self-explanatory and follow the logical flow of the Profile2Gen process.
+
+Each of the following folders:
+* choosing_framework/
+
+* generating_synth_data/
+
+* profiling_synth_data/
+
+* evaluation/
+
+contains a subfolder named utils/ that includes base utility code required by each corresponding main script.
+Each main script has a corresponding .sh file that executes it.
+
+**Important:** Before running any script, you must manually update the paths inside the code files. Folder names should not be changed. Paths were written using "root" or "root for this folder" as placeholders — these should be replaced with the actual root path on your system.
+
+**Some folders may appear empty** — this is intentional. Certain scripts depend on these folders being present and may crash if they are missing.
+
+
+
