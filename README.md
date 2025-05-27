@@ -1,6 +1,8 @@
 # profile2gen
- This repository corresponds to the implementation for the research work titled "Breaking the Barrier of Hard Samples: A Data-Centric Approach to Synthetic Data for Medical Tasks" published at ICML 2025.
+This repository corresponds to the implementation of the research work titled:
 
+"Breaking the Barrier of Hard Samples: A Data-Centric Approach to Synthetic Data for Medical Tasks"
+Accepted at ICML 2025.
  
  The repositoy is structured as:
 ```
@@ -52,7 +54,7 @@
 
 
 
-**Project Structure and Execution Guide** 
+## **Project Structure and Execution Guide** 
 The folder names in this project are self-explanatory and follow the logical flow of the Profile2Gen process.
 
 Each of the following folders:
@@ -73,7 +75,7 @@ Each main script has a corresponding .sh file that executes it.
 
 
 
-----> **Execution Order**
+## **Execution Order**
 
 
 --> **To Generate Synthetic Data**
