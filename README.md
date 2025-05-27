@@ -78,7 +78,7 @@ Each main script has a corresponding .sh file that executes it.
 ## **Execution Order**
 
 
---> **To Generate Synthetic Data**
+### **To Generate Synthetic Data**
 
 
 ```
@@ -105,7 +105,7 @@ bash /root/profiling_synth_data/final_data.sh
 ```
 
 
--->** For evaluation process**
+### **For evaluation process**
 
 
 ```# Evaluate the real dataset
