@@ -73,3 +73,8 @@ Each main script has a corresponding .sh file that executes it.
 
 
 
+----> **Execution Order**
+--> **To Generate Synthetic Data**
+
+
+
