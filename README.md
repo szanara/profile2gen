@@ -17,13 +17,24 @@
 │   └── choosing_framework_p2syntheticdata.sh
 │
 ├── generating_synth_data/
-│   ├── preprocessing.py
-│   └── model.py
+│   └── utils
+│   └── traditional
+│   └── profiled
 ├── profiling_synth_data/
+│   └── utils
+│   └── after_profile_synth_data.py
+│   └── post_sculpting.sh
+│   └── finl_data.py
+│   └──final_data.sh
 ├── models/
 ├── generated
 ├──outs
 ├── evaluation
+│   └── execute_evaluate_synthetic.py
+│   └── evaluate_synthetic.sh
+│   └── evaluate_step1_synthetic.sh
+│   └── evalaute_originals.sh
+│   └──execure_evaluate.py
 ├──indices
 ├──FinalData
 ├── requirements.txt
